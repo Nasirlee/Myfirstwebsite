@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nasir Lampkins">
+    <title>Lee's First Website</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="icon" href="cat.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+         <h1>Hi my name is Lee</h1>
+                        
+    <nav aria-label="primary-navigation">
+        <h2 id="primary-navigation"> and this is a bit about me</h2>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Background">&nbsp;&nbsp;Background</a></li>
+            <li><a href="#School">School</a></li>
+            <li><a href="#Experience">&nbsp;&nbsp;Experience</a></li>
+            <li><a href="#otherprojects">Other Projects</a></li>
+            <li><a href="#Hireme">&nbsp;&nbsp;Hire me</a></li>  
+            <li><a href="#Contactme">Contact me</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+    <section id="Home">
+        <h3 class="titles">A little about myself</h3>
+         <figure>
+        <img src="img/mountfugi.jpg" alt="pic of mount fugi" title="this is just a filler image for now" width="600" height="500">
+    <figcaption>
+        mount fugi in japan
+         </figcaption>
+        </figure>
+        <p>My name is Lee. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </section>
+    <section id="Background">
+        <h3 class="titles">My background as a fullstack dev</h3>
+        <img src="img/japantoocool.jpg" alt="a cool pic of japan" title="this is also a filler image for mow"  width="600"  height="400"loading="lazy">
+        <p> <span class="Highlight">I started out my journey</span> as a fullstack dev in high school. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <aside>
+            <details>
+                    <summary>
+            muncie central high is located in ...well muncie indiana 
+                    </summary>
+                    <p>
+                        that place is very boring though. like you could switch the html cables and everyone thinks your a wizard boring...
+                    </p>
+            </details>
+        </aside>
+    </section>
+    <section id="School">
+        <h2 class="titles">My Education</h2>
+        <figure>
+        <img src="img/japancool.jpg" alt="another cool pic of japan" title="also a filler"
+        width="400" height="400"    loading="lazy">
+        <figcaption>another pic of japan</figcaption>
+        </figure>
+        <p>I graduated from Southern New Hampshire recently with a goal to become a full stack dev. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </section>
+    <section id="Experience">
+        <h2 class="titles">My experience as a fullstack engineer</h2>
+        <p>By now you probably realize I'm a self-taught fullstack dev with a few years of experience. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </section>
+    <section id="otherprojects">
+        <h2 class="titles">My other projects</h2>
+        <p>By now you probably realize I'm a self-taught fullstack dev with a few years of experience. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </section>
+    <section id="Hireme">
+        <h2 class="titles">Hire me?</h2>
+        <p> what i bring to the table is a drive unlike anyone else and the proof to back it up!</p>
+    </section>
+    <section>
+        <table>
+            <caption>
+                my schedule
+            </caption>
+            <thead>
+            <tr>
+                <th>
+                    &nbsp;
+                </th>
+                <th>
+                    Time
+                </th>
+                <th>
+                    activity
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>morning</th>
+                <td>
+                    <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                </td>
+                <td> write code</td>
+            </tr>
+            <tr>
+                <th>evening</th>
+                <td>
+                    <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                </td>
+                <td> eat lunch</td>
+            </tr>
+            <tr>
+                <th>afternoon</th>
+                <td>
+                    <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+                </td>
+                <td> study time</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="Contactme">
+        <h2>
+            Contact me
+        </h2>
+        <p>
+            id really like to hear from you 
+        </p>
+        <form action="https://httpbin.org/get" method="get">
+            <div>
+            <label for="firstName">First name:
+            </label>
+            <input type="text" name="firstName" id="firstName" placeholder="jane" autocomplete="on" required>
+            </div>
+            <div>
+            <label for="lastName">last name:
+            </label>
+            <input type="text" name="lastName" id="lastName" placeholder="doe" autocomplete="on" required>
+            </div> 
+            <div>
+            <label for="password">password:
+            </label>
+            <input type="password" name="password" id="password" placeholder="keep it secret" required>
+            </div> 
+            <div>
+            <label for="phone">phone:
+            </label>
+            <input type="tel" name="phone" id="phone" placeholder="5555555555" 
+            pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+            </div> 
+            <div>
+            <label for="decade">Favorite decade:
+            </label>
+            <input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980">
+            </div> 
+        </form>
+    </section>
+    </main>
+
+    <footer>
+        <a href="about.html"><p>Contact me at 91893021839018390</p></a>
+        <br>
+        <a href="#"><p>to Top</p></a>
+    </footer>
+</body>
+</html>
+<!--- C:\Users\HP\OneDrive\Desktop\first website attempt\index.html-->
